@@ -1,0 +1,23 @@
+<dom-module id="hi9-header">
+  <template>
+    <div id="heading" style="height: 50px; width: 100%;padding: 2px 0 20px 20px; margin-bottom: 20px;" class="style-scope user-admin">
+      <h2 style="color: #FFF; float:left;" class="style-scope user-admin">{{label}}</h2>
+      <iron-icon icon="{{icon}}" style="color: #FFF; height: 40px; width: 40px; float: right; margin: 15px 20px 0px 0px;" class="style-scope user-admin x-scope iron-icon-1"></iron-icon>
+    </div>
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: "hi9-header",
+    properties: {
+      label: String,
+      icon: {type:String, value: "account-circle"},
+      color: {type:String, value:"#000"}
+    },
+    ready: function() {
+      debugger;
+      this.$.heading
+      
+    }
+  });
+</script>

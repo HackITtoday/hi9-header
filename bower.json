@@ -1,0 +1,12 @@
+{
+  "name": "hi9-header",
+  "version": "1.0.0",
+  "description": "hi9-header",
+  "main": "hi9-header.html",
+  "keywords": [
+    "polymer","web-components"
+  ],
+  "dependencies": {
+    "polymer": "*"
+  }
+}
